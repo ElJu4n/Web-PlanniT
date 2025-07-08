@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanniT | Mis Itinerarios</title>
+    <link rel="stylesheet" href="..\styles\styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="..\index.html"><img class="logo" src="..\assets\logo.png" alt=""></a>
+        <nav>
+            <ul>
+                <li class="nav-li"><a href="..\index.html" class="nav-link"> Inicio </a></li>
+                <li class="nav-li"><a href="#" class="nav-link"> Mis Itinerarios </a></li>
+                <li class="nav-li"><a href="..\pages\creaTuCuenta.html" class="nav-link"> Crea tu Cuenta </a></li>
+                <li class="nav-li"><a href="..\pages\acercaDeNosotros.html" class="nav-link"> Acerca de Nosotros </a></li>
+                <li class="nav-li"><a href="..\pages\Contacto.html" class="nav-link"> Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Consulta tu siguiente viaje</h1>
+        </section>
+
+
+        <section>
+            <h2 class="itinerario-error">
+                Ups! Todavía no tienes ningún viaje
+            </h2>
+        </section>
+
+        <section>
+            <article>
+                <h2>¿A dónde quieres ir?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod consequat justo. Curabitur
+                    at nunc malesuada, rutrum dui vel, porta sapien. Aliquam tincidunt nibh nec nisl facilisis, nec
+                    commodo nunc tempor. Nunc et tellus sit amet libero faucibus varius. Morbi id lorem tempus,
+                    condimentum dolor sit amet, auctor leo. Nam id fringilla arcu. Duis imperdiet sed enim at mattis.
+                    Aliquam nec tincidunt tortor. Nulla facilisi. Mauris efficitur justo consectetur sodales
+                    consectetur. In fringilla hendrerit leo et dictum.
+                </p>
+            </article>
+
+            <article>
+
+                <h2 class="itinerario-crear">
+                    Crea tu primer viaje
+                </h2>
+
+                <form action="">
+                    <label class="field-submit-bold" for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="">
+
+                    <label class="field-submit-bold" for="destino">Destino(s):</label>
+                    <input type="text" name="destino" id="">
+
+                    <label class="field-submit-bold" for="fecha-inicio">De:</label>
+                    <input type="text" name="fecha-inicio" id="">
+
+                    <label class="field-submit-bold" for="fecha-final">A:</label>
+                    <input type="text" name="fecha-final" id="">
+
+                    <input type="button" value="+ Agregar Destino" class="agregar-boton">
+
+                    <input class="enviar-boton" type="submit" value="Crear">
+
+                </form>
+
+            </article>
+
+        </section>
+
+        <section>
+            <h2>¿Todavía no tienes tu cuenta? <a class="nav-link-exter" href="..\pages\creaTuCuenta.html">Crea tu cuenta
+                    aquí</a> </h2>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <p>Siguenos en redes:</p>
+            <nav>
+                <ul>
+                    <li class="nav-li"><a href="https://www.facebook.com/" target="_blank"><img src="..\assets\fb.png"
+                                alt=""></a></li>
+                    <li class="nav-li"><a href="https://www.instagram.com/" target="_blank"><img src="..\assets\ig.png"
+                                alt=""></a></li>
+                    <li class="nav-li"><a href="https://x.com/" target="_blank"><img src="..\assets\x.png" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <img src="..\assets\logoAlt.png" alt="" class="logo">
+            <p>© 2025 planniT</p>
+        </section>
+
+        <section>
+            <p>Aviso de privacidad</p>
+            <p><a href="..\pages\Contacto.html" class="nav-link-footer">Contacto</a></p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

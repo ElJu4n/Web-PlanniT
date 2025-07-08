@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+/*font-family: "Instrument Sans", sans-serif;*/
+
+/*Fuentes y color para body en general*/
+
+body {
+    font-family: "Instrument Sans", sans-serif;
+    color: black;
+}
+
+/*Estilos Head*/
+.nav-li {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*Estilos main misc*/
+
+h1 {
+    font-size: 32px;
+    background-color: #FFE29F;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p{
+    font-size: 24px;
+}
+
+/*Estilos para itinerario*/
+
+.itinerario-error{
+    font-weight: bold;
+    background-color: #FFF1F1;
+    font-size: 28px;
+}
+
+.itinerario-crear{
+    font-weight: bold;
+    background-color: #E7FED5;
+    font-size: 28px;
+}
+
+/*Estilos para links fuera del index*/
+
+.nav-link-exter {
+    text-decoration: none;
+    color: #D86363;
+    font-size: 24px;
+}
+
+.mail-to{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Formatear imagenes y logos*/ 
+
+.logo{
+    width: 256px;
+}
+
+.index-main-image{
+    width: 365px;
+}
+
+.acerca-main-image{
+    width: 1000px;
+}
+
+/*Estilos Footer*/
+
+footer{
+    color: white;
+    background-color: #D86363;
+}
+
+.nav-link-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+
+/*Estilos para botones y forms*/
+.field-submit-normal{
+    font-size: 24px;
+}
+.field-submit-bold{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.enviar-boton{
+    background-color: #D86363;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+
+.agregar-boton{
+    background-color: #FFC94C;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
