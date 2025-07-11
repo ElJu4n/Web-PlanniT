@@ -7,8 +7,8 @@
     <title>PlanniT | Mis Itinerarios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href=".\styles\styles.css">
     <link rel="stylesheet" href="..\styles\styles.css">
+
 </head>
 
 <body>
@@ -56,11 +56,15 @@
 
     <main>
         <section class="container">
-            <h1>Consulta tu siguiente viaje</h1>
+            <div class="row">
+                <h1 class="col-12">
+                    <p class="title-page">Consulta tu siguiente viajes</p>
+                </h1>
 
-            <h2 class="itinerario-error">
-                Ups! Todavía no tienes ningún viaje
-            </h2>
+                <h2 class="itinerario-error">
+                    Ups! Todavía no tienes ningún viaje
+                </h2>                
+            </div>
 
             <article>
                 <h2>¿A dónde quieres ir?</h2>
@@ -100,9 +104,6 @@
                 </form>
 
             </article>
-
-            <h2>¿Todavía no tienes tu cuenta? <a class="nav-link-exter" href="..\pages\creaTuCuenta.html">Crea tu cuenta
-                    aquí</a> </h2>
         </section>
     </main>
 

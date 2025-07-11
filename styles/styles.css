@@ -40,8 +40,15 @@ body {
 /*Estilos main misc*/
 
 h1 {
-    font-size: 64px;
     background-color: #FFE29F;
+}
+
+.title-page {
+    font-size: 52px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 250px;
 }
 
 h2 {
