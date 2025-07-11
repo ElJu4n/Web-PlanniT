@@ -13,17 +13,44 @@
 
 <body>
     <header>
-        <section class="container">
-            <a href=".\index.html"><img class="logo" src="..\assets\logo.png" alt=""></a>
-        </section>
-        <nav>
-            <ul>
-                <li class="nav-li"><a href="..\index.html" class="nav-link"> Inicio </a></li>
-                <li class="nav-li"><a href="#" class="nav-link"> Mis Itinerarios </a></li>
-                <li class="nav-li"><a href="..\pages\creaTuCuenta.html" class="nav-link"> Crea tu Cuenta </a></li>
-                <li class="nav-li"><a href="..\pages\acercaDeNosotros.html" class="nav-link"> Acerca de Nosotros </a></li>
-                <li class="nav-li"><a href="..\pages\Contacto.html" class="nav-link"> Contacto </a></li>
-            </ul>
+
+        <nav >
+            <div class="navbar navbar-expand-lg container">
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-header justify-content-center">
+                        <a class="navbar-brand" href="..\index.html"><img class="logo" src="..\assets\logo.png" alt=""></a>
+                    </div>
+
+                    <div class="navbar-right"> 
+                        <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                        <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="navbar navbar-expand-lg nav-style container">
+                <div class="navbar-toggler ">
+                    <a class="navbar-brand " href="..\index.html"> 
+                        <img class="logo-mobile" src="..\assets\logoWhite.png" alt="">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarPages" aria-controls="navbarPages" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse nav-fill" id="navbarPages">
+
+                    <a class="nav-link" aria-current="page" href="..\index.html">Inicio</a>
+                    <a class="nav-link nav-active-margin" href="#">Mis Itinerarios</a>
+                    <a class="nav-link" href="..\pages\Recomendaciones.html">Recomendaciones</a>
+                    <a class="nav-link" href="..\pages\acercaDeNosotros.html">Acerca de Nosotros</a>
+                    <a class="nav-link" href="..\pages\Contacto.html">Contacto</a>
+                </div>
+            </div>
         </nav>
     </header>
 
