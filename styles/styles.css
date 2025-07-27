@@ -24,7 +24,7 @@ footer {
 }
 
 .nav-style {
-  /*padding: 15px 0;*/
+  padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   border-top: 2px solid rgb(151, 151, 151);
@@ -42,35 +42,47 @@ footer {
   color: black;
   text-decoration: none;
   font-size: 20px;
-  margin: 1px;
+  margin: 0px;
 }
 
 .nav-active-margin {
   border-bottom: 6px solid #D86363;
-  padding: 5px 0;
 }
 
 .nav-link {
   color: black;
   text-decoration: none;
   font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .nav-link:hover {
   border-bottom: 6px solid rgb(151, 151, 151);
-  padding: 5px 0;
 }
 
 .mobile-nav {
   border-color: transparent;
 }
 
-.error-message {
+.error-message, .confirm-message {
   font-weight: bold;
   font-size: 28px;
 }
 
 .error-message {
   background-color: #ffabab;
+}
+
+.confirm-message {
+  background-color: #E7FED5;
+}
+
+.title-page {
+  font-size: 45px;
+  margin-bottom: 25px;
+  padding: 35px 600px 35px 50px;
+  background-color: #FFE29F;
+  font-weight: bold;
 }
 
 /*Fuentes y color para body en general*/
@@ -81,18 +93,6 @@ body {
 }
 
 /*Estilos main misc*/
-h1 {
-  background-color: #FFE29F;
-}
-
-.title-page {
-  font-size: 3.5rem;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding-left: 50px;
-  padding-right: 250px;
-}
-
 .style-p {
   margin: 10px 0;
 }

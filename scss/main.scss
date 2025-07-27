@@ -8,6 +8,7 @@
 @use "./partials/components/footer";
 @use "./partials/components/header";
 @use "./partials/components/messages";
+@use "./partials/components/general";
 
 
 /*Fuentes y color para body en general*/
@@ -20,17 +21,7 @@ body {
 
 /*Estilos main misc*/
 
-h1 {
-    background-color: #FFE29F;
-}
 
-.title-page {
-    font-size: 3.5rem;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 250px;
-}
 
 .style-p{
     margin: 10px 0;

@@ -4,3 +4,8 @@
     @extend %messages;
     background-color: #ffabab;
 }
+
+.confirm-message{
+    @extend %messages;
+    background-color: #E7FED5;
+}
