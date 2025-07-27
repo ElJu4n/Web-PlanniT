@@ -43,6 +43,16 @@ nav{
 
 .nav-active-margin {
     border-bottom: 6px solid variables.$plannit-coral;
+    
+}
+
+@keyframes hover-transition {
+    0% {border-bottom-color: rgb(151, 151, 151, 0.0)}
+    20% {border-bottom-color: rgb(151, 151, 151, 0.2)}
+    40% {border-bottom-color: rgb(151, 151, 151, 0.4)}
+    60% {border-bottom-color: rgb(151, 151, 151, 0.6)}
+    80% {border-bottom-color: rgb(151, 151, 151, 0.8)}
+    100% {border-bottom-color: rgb(151, 151, 151, 1.0);}
 }
 
 .nav-link {
@@ -53,7 +63,12 @@ nav{
     padding-bottom: 15px;
 
     &:hover{
+        
         border-bottom: 6px solid variables.$light-grey;
+        animation-name: hover-transition;
+        animation-duration: 0.25s;
+        animation-iteration-count: 1;
+        
     }
 }
 

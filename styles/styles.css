@@ -59,6 +59,26 @@ nav div {
   border-bottom: 6px solid #D86363;
 }
 
+@keyframes hover-transition {
+  0% {
+    border-bottom-color: rgba(151, 151, 151, 0);
+  }
+  20% {
+    border-bottom-color: rgba(151, 151, 151, 0.2);
+  }
+  40% {
+    border-bottom-color: rgba(151, 151, 151, 0.4);
+  }
+  60% {
+    border-bottom-color: rgba(151, 151, 151, 0.6);
+  }
+  80% {
+    border-bottom-color: rgba(151, 151, 151, 0.8);
+  }
+  100% {
+    border-bottom-color: rgb(151, 151, 151);
+  }
+}
 .nav-link {
   color: black;
   text-decoration: none;
@@ -68,6 +88,9 @@ nav div {
 }
 .nav-link:hover {
   border-bottom: 6px solid rgb(151, 151, 151);
+  animation-name: hover-transition;
+  animation-duration: 0.25s;
+  animation-iteration-count: 1;
 }
 
 .mobile-nav {
