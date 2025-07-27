@@ -11,12 +11,16 @@ footer {
   font-size: 24px;
 }
 
-.nav-li {
-  list-style-type: none;
+header {
+  margin: 0px;
 }
 
-.nav-bg {
+nav div {
   background-color: white;
+}
+
+.nav-li {
+  list-style-type: none;
 }
 
 .nav-extra {
@@ -57,7 +61,7 @@ footer {
   padding-bottom: 15px;
 }
 .nav-link:hover {
-  border-bottom: 6px solid rgb(151, 151, 151);
+  border-bottom: px solid rgb(151, 151, 151);
 }
 
 .mobile-nav {
@@ -77,12 +81,19 @@ footer {
   background-color: #E7FED5;
 }
 
-.title-page {
+h1 {
   font-size: 45px;
+}
+
+.title-page {
   margin-bottom: 25px;
-  padding: 35px 600px 35px 50px;
+  padding: 35px 500px 35px 50px;
   background-color: #FFE29F;
   font-weight: bold;
+}
+
+.mar {
+  margin: 0;
 }
 
 /*Fuentes y color para body en general*/

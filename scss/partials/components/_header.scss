@@ -1,11 +1,17 @@
 @use "../utilities/variables";
 
-.nav-li {
-    list-style-type: none;
+header{
+    margin: 0px;
 }
 
-.nav-bg{
-    background-color: white;
+nav{
+    div{
+        background-color: white;
+    }
+}
+
+.nav-li {
+    list-style-type: none;
 }
 
 .nav-extra{
@@ -47,7 +53,7 @@
     padding-bottom: 15px;
 
     &:hover{
-        border-bottom: 6px solid variables.$light-grey;
+        border-bottom: px solid variables.$light-grey;
     }
 }
 
