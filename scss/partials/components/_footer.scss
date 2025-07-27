@@ -4,6 +4,7 @@
 footer{
     color: white;
     background-color: variables.$plannit-coral;
+    padding: 10px;
 }
 
 .nav-link-footer {
@@ -12,6 +13,7 @@ footer{
     font-size: 24px;
 }
 
-.footer-li {
-    list-style-type: none;
+.footer-social-links {
+    color: white;
+    font-size: 40px;
 }

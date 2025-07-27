@@ -3,6 +3,7 @@
 footer {
   color: white;
   background-color: #D86363;
+  padding: 10px;
 }
 
 .nav-link-footer {
@@ -11,8 +12,9 @@ footer {
   font-size: 24px;
 }
 
-.footer-li {
-  list-style-type: none;
+.footer-social-links {
+  color: white;
+  font-size: 40px;
 }
 
 header {
@@ -77,6 +79,20 @@ nav div {
   font-size: 28px;
 }
 
+.description-page h1 {
+  margin-bottom: 25px;
+  padding: 35px 500px 35px 50px;
+  background-color: #FFE29F;
+  font-weight: bold;
+  font-size: 45px;
+}
+.description-page div {
+  margin: 10px 0;
+}
+.description-page div h2 {
+  font-weight: bold;
+}
+
 .error-message {
   background-color: #ffabab;
 }
@@ -85,19 +101,11 @@ nav div {
   background-color: #E7FED5;
 }
 
-h1 {
-  font-size: 45px;
+.description-page div {
+  margin: 10px 0;
 }
-
-.title-page {
-  margin-bottom: 25px;
-  padding: 35px 500px 35px 50px;
-  background-color: #FFE29F;
+.description-page div h2 {
   font-weight: bold;
-}
-
-.mar {
-  margin: 0;
 }
 
 /*Fuentes y color para body en general*/
@@ -108,10 +116,6 @@ body {
 }
 
 /*Estilos main misc*/
-.style-p {
-  margin: 10px 0;
-}
-
 h2 {
   font-size: 28px;
 }
