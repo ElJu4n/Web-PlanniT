@@ -1,0 +1,6 @@
+@use "../utilities/extend";
+
+.error-message{
+    @extend %messages;
+    background-color: #ffabab;
+}

@@ -1,0 +1,13 @@
+@use "../utilities/variables";
+
+
+footer{
+    color: white;
+    background-color: variables.$plannit-coral;
+}
+
+.nav-link-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}

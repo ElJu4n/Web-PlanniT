@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
-/*font-family: "Instrument Sans", sans-serif;*/
+//Base
+
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+
+//Components
+
+@use "./partials/components/footer";
+@use "./partials/components/header";
+@use "./partials/components/messages";
+
 
 /*Fuentes y color para body en general*/
 
@@ -7,58 +16,6 @@ body {
     font-family: "Instrument Sans", sans-serif;
     color: black;
     margin-top: 200px;
-}
-
-/*Estilos Head*/
-.nav-li {
-    list-style-type: none;
-}
-
-.nav-bg{
-    background-color: white;
-}
-
-.nav-extra{
-    display: block;
-}
-
-.nav-style {
-    /*padding: 15px 0;*/
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-top: 2px solid rgb(151, 151, 151);
-    border-bottom: 2px solid rgb(151, 151, 151);
-
-}
-
-.nav-icon{ 
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    margin: 10px;
-}
-
-.nav-account-text{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 1px;
-}
-
-.nav-active-margin {
-    border-bottom: 6px solid rgb(247, 113, 40);
-    padding: 5px 0;
-}
-
-.nav-link {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-
-    &:hover{
-        border-bottom: 6px solid rgb(74, 74, 74);
-        padding: 5px 0;
-    }
 }
 
 /*Estilos main misc*/
@@ -91,7 +48,7 @@ p{
 
 .itinerario-error{
     font-weight: bold;
-    background-color: #FFF1F1;
+    background-color: #d19999;
     font-size: 28px;
 }
 
@@ -127,10 +84,6 @@ p{
     margin-left: 20px;
 }
 
-.mobile-nav{
-    border-color: transparent;
-}
-
 .index-main-image{
     width: 100%;
 }
@@ -138,20 +91,6 @@ p{
 .acerca-main-image{
     width: 1000px;
 }
-
-/*Estilos Footer*/
-
-footer{
-    color: white;
-    background-color: #D86363;
-}
-
-.nav-link-footer {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-}
-
 
 /*Estilos para botones y forms*/
 .field-submit-normal{
