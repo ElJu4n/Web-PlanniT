@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+  color: black;
+  margin-top: 200px;
+}
+
 /*font-family: "Instrument Sans", sans-serif;*/
 footer {
   color: white;
@@ -89,7 +100,7 @@ nav div {
 .nav-link:hover {
   border-bottom: 6px solid rgb(151, 151, 151);
   animation-name: hover-transition;
-  animation-duration: 0.25s;
+  animation-duration: 0.35s;
   animation-iteration-count: 1;
 }
 
@@ -102,20 +113,6 @@ nav div {
   font-size: 28px;
 }
 
-.description-page h1 {
-  margin-bottom: 25px;
-  padding: 35px 500px 35px 50px;
-  background-color: #FFE29F;
-  font-weight: bold;
-  font-size: 45px;
-}
-.description-page div {
-  margin: 10px 0;
-}
-.description-page div h2 {
-  font-weight: bold;
-}
-
 .error-message {
   background-color: #ffabab;
 }
@@ -124,56 +121,28 @@ nav div {
   background-color: #E7FED5;
 }
 
-.description-page div {
+/* .description-page{
+    @extend %page;
+
+}
+ */
+.page-general h1 {
+  margin-bottom: 25px;
+  padding: 35px 500px 35px 50px;
+  background-color: #FFE29F;
+  font-weight: bold;
+  font-size: 45px;
+}
+.page-general div {
   margin: 10px 0;
 }
-.description-page div h2 {
+.page-general div h2 {
   font-weight: bold;
 }
-
-/*Fuentes y color para body en general*/
-body {
-  font-family: "Instrument Sans", sans-serif;
-  color: black;
-  margin-top: 200px;
-}
-
-/*Estilos main misc*/
-h2 {
-  font-size: 28px;
-}
-
-p {
+.page-general div p {
   font-size: 24px;
 }
 
-/*Estilos para itinerario*/
-.itinerario-error {
-  font-weight: bold;
-  background-color: #d19999;
-  font-size: 28px;
-}
-
-.itinerario-crear {
-  font-weight: bold;
-  background-color: #E7FED5;
-  font-size: 28px;
-}
-
-/*Estilos para links fuera del index*/
-.nav-link-exter {
-  text-decoration: none;
-  color: #D86363;
-  font-size: 24px;
-}
-
-.mail-to {
-  font-size: 24px;
-  text-decoration: none;
-  color: black;
-}
-
-/*Formatear imagenes y logos*/
 .logo {
   width: 256px;
 }
@@ -190,30 +159,6 @@ p {
 
 .acerca-main-image {
   width: 1000px;
-}
-
-/*Estilos para botones y forms*/
-.field-submit-normal {
-  font-size: 24px;
-}
-
-.field-submit-bold {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.enviar-boton {
-  background-color: #D86363;
-  color: white;
-  border: none;
-  font-size: 24px;
-}
-
-.agregar-boton {
-  background-color: #FFC94C;
-  color: white;
-  border: none;
-  font-size: 24px;
 }
 
 /*# sourceMappingURL=styles.css.map */

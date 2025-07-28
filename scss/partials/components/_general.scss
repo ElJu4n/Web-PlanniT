@@ -6,21 +6,24 @@
 }
  */
  .page-general{
-    div{
-        h1{   
-            margin-bottom: 25px;
-            padding: 35px 500px 35px 50px ;
-            background-color: #FFE29F;
-            font-weight: bold;
-            font-size: 45px;
-        }
-        div{
-            margin: 10px 0;
-            h2{
-                font-weight: bold;
-            }
-        }        
+
+    h1{   
+        margin-bottom: 25px;
+        padding: 35px 500px 35px 50px ;
+        background-color: #FFE29F;
+        font-weight: bold;
+        font-size: 45px;
     }
+    div{
+        margin: 10px 0;
+        h2{
+            font-weight: bold;
+        }
+        p{
+            font-size: 24px ;
+        }
+    }              
+
 
 
 }
