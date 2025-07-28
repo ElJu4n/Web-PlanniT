@@ -5,13 +5,15 @@ footer{
     color: white;
     background-color: variables.$plannit-coral;
     padding-bottom: 25px;
+    font-size: 24px;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+    }
 }
 
-.nav-link-footer {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-}
 
 .footer-social-links {
     color: white;

@@ -15,9 +15,9 @@ footer {
   color: white;
   background-color: #D86363;
   padding-bottom: 25px;
+  font-size: 24px;
 }
-
-.nav-link-footer {
+footer a {
   text-decoration: none;
   color: white;
   font-size: 24px;
@@ -138,9 +138,26 @@ nav div {
 }
 .page-general div h2 {
   font-weight: bold;
+  padding-bottom: 20px;
 }
 .page-general div p {
   font-size: 24px;
+}
+
+.testimonios {
+  font-size: 24px;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  border-style: dashed;
+  margin-bottom: 40px;
+}
+.testimonios img {
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.testimonios p {
+  margin: 30px;
 }
 
 .logo {
