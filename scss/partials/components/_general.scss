@@ -20,9 +20,11 @@
         h2{
             font-weight: bold;
             padding-bottom: 20px;
+            padding-top: 20px;
         }
         p{
             font-size: 24px ;
+            
         }
     }              
 
@@ -46,3 +48,39 @@
         margin: 30px;
     }
 }
+
+.places{
+    
+    h2{
+        font-size: 32px ;    
+        border: 2px solid variables.$light-grey;
+        border-radius: 10px;
+        border-style: dashed;
+        padding: 10px;
+        font-weight: bold;
+    }
+    div{
+        border: 2px solid variables.$light-grey;
+        border-radius: 10px;
+        border-style: dashed;
+        padding: 10px;
+        p{
+            font-size: 24px ;    
+        }
+        h3{
+            border: 2px solid variables.$light-grey;
+            border-radius: 10px;
+            border-style: dashed;
+            padding: 10px;
+            background-color: aliceblue;
+            font-size: 24px ;   
+        }
+    }
+
+
+}
+
+.link-contact{
+    color: variables.$plannit-coral;
+    text-decoration: none;
+} 

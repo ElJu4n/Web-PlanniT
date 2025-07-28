@@ -139,6 +139,7 @@ nav div {
 .page-general div h2 {
   font-weight: bold;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .page-general div p {
   font-size: 24px;
@@ -160,6 +161,37 @@ nav div {
   margin: 30px;
 }
 
+.places h2 {
+  font-size: 32px;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  border-style: dashed;
+  padding: 10px;
+  font-weight: bold;
+}
+.places div {
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  border-style: dashed;
+  padding: 10px;
+}
+.places div p {
+  font-size: 24px;
+}
+.places div h3 {
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  border-style: dashed;
+  padding: 10px;
+  background-color: aliceblue;
+  font-size: 24px;
+}
+
+.link-contact {
+  color: #D86363;
+  text-decoration: none;
+}
+
 .logo {
   width: 256px;
 }
@@ -176,6 +208,10 @@ nav div {
 
 .acerca-main-image {
   width: 1000px;
+}
+
+.recs-image {
+  width: 1300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
