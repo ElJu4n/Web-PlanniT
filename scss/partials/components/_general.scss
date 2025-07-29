@@ -1,5 +1,6 @@
 @use "../utilities/extend";
 @use "../utilities/variables";
+/* 80805 */
 
 /* .description-page{
     @extend %page;
@@ -29,6 +30,35 @@
     }              
 
 
+
+}
+
+@media (max-width: 1000px){
+ .page-general{
+
+    h1{   
+        margin-bottom: 25px;
+        padding: 35px 0px 35px 50px ;
+        background-color: #FFE29F;
+        font-weight: bold;
+        font-size:30px;
+    }
+    div{
+        margin: 10px 0;
+        h2{
+            font-weight: bold;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        p{
+            font-size: 24px ;
+            
+        }
+    }              
+
+
+
+}        
 
 }
 
@@ -84,3 +114,8 @@
     color: variables.$plannit-coral;
     text-decoration: none;
 } 
+
+.frm{
+    font-size: 24px;
+    margin: 20px;
+}

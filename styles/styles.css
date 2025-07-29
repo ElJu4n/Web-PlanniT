@@ -121,6 +121,7 @@ nav div {
   background-color: #E7FED5;
 }
 
+/* 80805 */
 /* .description-page{
     @extend %page;
 
@@ -145,6 +146,26 @@ nav div {
   font-size: 24px;
 }
 
+@media (max-width: 1000px) {
+  .page-general h1 {
+    margin-bottom: 25px;
+    padding: 35px 0px 35px 50px;
+    background-color: #FFE29F;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .page-general div {
+    margin: 10px 0;
+  }
+  .page-general div h2 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .page-general div p {
+    font-size: 24px;
+  }
+}
 .testimonios {
   font-size: 24px;
   border: 2px solid rgb(151, 151, 151);
@@ -192,6 +213,11 @@ nav div {
   text-decoration: none;
 }
 
+.frm {
+  font-size: 24px;
+  margin: 20px;
+}
+
 .logo {
   width: 256px;
 }
@@ -212,6 +238,12 @@ nav div {
 
 .recs-image {
   width: 1300px;
+}
+
+@media (max-width: 450px) {
+  .recs-image {
+    width: 100px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

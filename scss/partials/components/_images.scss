@@ -19,3 +19,9 @@
 .recs-image{
     width:1300px;
 }
+
+@media (max-width:450px) {
+    .recs-image{
+        width:100px ;
+    }
+}
