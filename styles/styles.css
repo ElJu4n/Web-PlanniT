@@ -178,11 +178,11 @@ nav div {
   padding: 10px;
   border-radius: 20px;
 }
-.testimonios p {
+.testimonios div p {
   margin: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .testimonios {
     font-size: 24px;
     border: 2px solid rgb(151, 151, 151);
@@ -190,13 +190,17 @@ nav div {
     border-style: dashed;
     margin-bottom: 40px;
   }
-  .testimonios img {
-    width: 350px;
+  .testimonios div img {
+    width: 300px;
     padding: 10px;
     border-radius: 20px;
   }
-  .testimonios p {
+  .testimonios div p {
     margin: 30px;
+    font-size: 16px;
+  }
+  .testimonios div h3 {
+    font-size: 20px;
   }
 }
 .places h2 {
