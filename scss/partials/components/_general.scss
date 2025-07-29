@@ -79,6 +79,24 @@
     }
 }
 
+@media(max-width:500px){
+    .testimonios{
+    font-size: 24px ;    
+    border: 2px solid variables.$light-grey;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-bottom: 40px;
+    img{
+       width: 350px; 
+       padding: 10px;
+       border-radius: 20px
+    }
+    p{
+        margin: 30px;
+    }
+}
+}
+
 .places{
     
     h2{

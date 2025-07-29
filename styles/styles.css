@@ -182,6 +182,23 @@ nav div {
   margin: 30px;
 }
 
+@media (max-width: 500px) {
+  .testimonios {
+    font-size: 24px;
+    border: 2px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    border-style: dashed;
+    margin-bottom: 40px;
+  }
+  .testimonios img {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .testimonios p {
+    margin: 30px;
+  }
+}
 .places h2 {
   font-size: 32px;
   border: 2px solid rgb(151, 151, 151);
