@@ -189,6 +189,7 @@ nav div {
     border-radius: 10px;
     border-style: dashed;
     margin-bottom: 40px;
+    margin-left: 1px;
   }
   .testimonios div img {
     width: 300px;
