@@ -127,6 +127,48 @@ nav div {
 
 }
  */
+.lista-capacidades {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+}
+.lista-capacidades div {
+  padding: 10px;
+}
+
+.lista-testimonios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.lista-testimonios article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  font-size: 24px;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 10px;
+  border-style: dashed;
+  margin-bottom: 40px;
+}
+.lista-testimonios article img {
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.lista-testimonios article div p {
+  margin: 30px;
+}
+.lista-testimonios article:nth-child(odd) {
+  margin-left: 20%;
+}
+.lista-testimonios article:nth-child(even) {
+  margin-right: 20%;
+}
+
+.blank-element {
+  color: white;
+}
+
 .page-general h1 {
   margin-bottom: 25px;
   padding: 35px 500px 35px 50px;
@@ -165,43 +207,45 @@ nav div {
   .page-general div p {
     font-size: 24px;
   }
-}
-.testimonios {
-  font-size: 24px;
-  border: 2px solid rgb(151, 151, 151);
-  border-radius: 10px;
-  border-style: dashed;
-  margin-bottom: 40px;
-}
-.testimonios img {
-  width: 400px;
-  padding: 10px;
-  border-radius: 20px;
-}
-.testimonios div p {
-  margin: 30px;
-}
-
-@media (max-width: 1000px) {
-  .testimonios {
+  .lista-testimonios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .lista-testimonios article {
+    display: block;
     font-size: 24px;
     border: 2px solid rgb(151, 151, 151);
     border-radius: 10px;
     border-style: dashed;
     margin-bottom: 40px;
     margin-left: 1px;
+    text-align: center;
   }
-  .testimonios div img {
+  .lista-testimonios article img {
     width: 300px;
     padding: 10px;
     border-radius: 20px;
   }
-  .testimonios div p {
+  .lista-testimonios article p {
     margin: 30px;
     font-size: 16px;
   }
-  .testimonios div h3 {
+  .lista-testimonios article h3 {
     font-size: 20px;
+  }
+  .lista-testimonios article:nth-child(odd) {
+    margin-left: 0%;
+  }
+  .lista-testimonios article:nth-child(even) {
+    margin-right: 0%;
+  }
+  .lista-capacidades {
+    display: block;
+    text-align: left;
+  }
+  .lista-capacidades div {
+    padding: 10px;
   }
 }
 .places h2 {
