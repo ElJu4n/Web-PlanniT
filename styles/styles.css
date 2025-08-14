@@ -242,14 +242,14 @@ nav div {
 }
 .places h2 {
   font-size: 32px;
-  border: 2px solid rgb(151, 151, 151);
+  border: 2px solid white;
   border-radius: 10px;
   border-style: dashed;
   padding: 10px;
   font-weight: bold;
 }
 .places div {
-  border: 2px solid rgb(151, 151, 151);
+  border: 2px solid white;
   border-radius: 10px;
   border-style: dashed;
   padding: 10px;
@@ -258,7 +258,7 @@ nav div {
   font-size: 24px;
 }
 .places div h3 {
-  border: 2px solid rgb(151, 151, 151);
+  border: 2px solid white;
   border-radius: 10px;
   border-style: dashed;
   padding: 10px;
