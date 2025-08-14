@@ -1,5 +1,7 @@
+@use "../utilities/mixins";
 @use "../utilities/extend";
 @use "../utilities/variables";
+
 
 
 /* 80805 88125 */
@@ -20,128 +22,19 @@
 
 
 .lista-testimonios{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        article{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: center;
-                font-size: 24px ;    
-            border: 2px solid variables.$light-grey;
-            border-radius: 10px;
-            border-style: dashed;
-            margin-bottom: 40px;
-            img{
-            width: 400px; 
-            padding: 10px;
-            border-radius: 20px 
-            }
-            div{
-                p{
-                    margin: 30px;
-                }        
-            }
-        }
-        article:nth-child(odd){
-            margin-left: 20%;
-        }
-        article:nth-child(even){
-            margin-right: 20%;  
-        }
-}
-
-
-
-.blank-element{
-    color: white;
+    @include mixins.card-alternada(variables.$plannit-white, 24px, dashed, variables.$light-grey, 20%);
 }
 
 
  .page-general{
 
-    h1{   
-        margin-bottom: 25px;
-        padding: 35px 500px 35px 50px ;
-        background-color: #FFE29F;
-        font-weight: bold;
-        font-size: 45px;
-    }
-    div{
-        margin: 10px 0;
-        h2{
-            font-weight: bold;
-            padding-bottom: 20px;
-            padding-top: 20px;
-        }
-        p{
-            font-size: 24px ;
-            
-        }
-    }              
-
-
+    @include mixins.main-layout(variables.$plannit-orange, 45px, variables.$plannit-white ,32px, 24px);
 
 }
 
 @media (max-width: 1000px){
     .page-general{
-
-        h1{   
-            margin-bottom: 25px;
-            padding: 35px 0px 35px 50px ;
-            background-color: #FFE29F;
-            font-weight: bold;
-            font-size:30px;
-        }
-        div{
-            margin: 10px 0;
-            h2{
-                font-weight: bold;
-                padding-bottom: 20px;
-                padding-top: 20px;
-            }
-            p{
-                font-size: 24px ;
-                
-            }
-        }              
-
-
-
-    }
-    .lista-testimonios{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            article{
-                display: block;
-                font-size: 24px ;    
-                border: 2px solid variables.$light-grey;
-                border-radius: 10px;
-                border-style: dashed;
-                margin-bottom: 40px;
-                margin-left: 1px;
-                text-align:center;
-                img{
-                width: 300px; 
-                padding: 10px;
-                border-radius: 20px;
-                }
-                p{
-                    margin: 30px;
-                    font-size: 16px;
-                }        
-                h3{
-                    font-size: 20px;
-                }
-            }
-            article:nth-child(odd){
-                margin-left: 0%;
-            }
-            article:nth-child(even){
-                margin-right: 0%;  
-            }
+        @include mixins.main-layout(variables.$plannit-orange, 32px, variables.$plannit-white ,24px, 16px);      
     }
 
     .lista-capacidades{
@@ -151,8 +44,6 @@
         padding: 10px;
         }
     }
-
-
 }
 
 .places{

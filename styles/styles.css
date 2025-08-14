@@ -142,6 +142,7 @@ nav div {
 }
 .lista-testimonios article {
   display: grid;
+  background-color: white;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   font-size: 24px;
@@ -164,9 +165,17 @@ nav div {
 .lista-testimonios article:nth-child(even) {
   margin-right: 20%;
 }
-
-.blank-element {
-  color: white;
+@media (max-width: 1000px) {
+  .lista-testimonios article {
+    display: block;
+    text-align: center;
+  }
+  .lista-testimonios article:nth-child(odd) {
+    margin-left: 0%;
+  }
+  .lista-testimonios article:nth-child(even) {
+    margin-right: 0%;
+  }
 }
 
 .page-general h1 {
@@ -178,68 +187,51 @@ nav div {
 }
 .page-general div {
   margin: 10px 0;
+  background-color: white;
 }
 .page-general div h2 {
   font-weight: bold;
+  font-size: 32px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .page-general div p {
   font-size: 24px;
 }
+@media (max-width: 1000px) {
+  .page-general h1 {
+    padding: 30px 0px 30px 30px;
+  }
+}
 
 @media (max-width: 1000px) {
   .page-general h1 {
     margin-bottom: 25px;
-    padding: 35px 0px 35px 50px;
+    padding: 35px 500px 35px 50px;
     background-color: #FFE29F;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 32px;
   }
   .page-general div {
     margin: 10px 0;
+    background-color: white;
   }
   .page-general div h2 {
     font-weight: bold;
+    font-size: 24px;
     padding-bottom: 20px;
     padding-top: 20px;
   }
   .page-general div p {
-    font-size: 24px;
-  }
-  .lista-testimonios {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .lista-testimonios article {
-    display: block;
-    font-size: 24px;
-    border: 2px solid rgb(151, 151, 151);
-    border-radius: 10px;
-    border-style: dashed;
-    margin-bottom: 40px;
-    margin-left: 1px;
-    text-align: center;
-  }
-  .lista-testimonios article img {
-    width: 300px;
-    padding: 10px;
-    border-radius: 20px;
-  }
-  .lista-testimonios article p {
-    margin: 30px;
     font-size: 16px;
   }
-  .lista-testimonios article h3 {
-    font-size: 20px;
+}
+@media (max-width: 1000px) and (max-width: 1000px) {
+  .page-general h1 {
+    padding: 30px 0px 30px 30px;
   }
-  .lista-testimonios article:nth-child(odd) {
-    margin-left: 0%;
-  }
-  .lista-testimonios article:nth-child(even) {
-    margin-right: 0%;
-  }
+}
+@media (max-width: 1000px) {
   .lista-capacidades {
     display: block;
     text-align: left;

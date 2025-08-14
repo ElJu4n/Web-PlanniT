@@ -1,0 +1,83 @@
+@mixin main-layout($h1-backround, $h1-size, $card-backround,$h2-size, $p-size){
+
+    h1{   
+        margin-bottom: 25px;
+        padding: 35px 500px 35px 50px ;
+        background-color:$h1-backround;
+        font-weight: bold;
+        font-size:$h1-size;
+    }
+    div{
+        margin: 10px 0;
+        background-color: $card-backround;
+        h2{
+            font-weight: bold;
+            font-size: $h2-size;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        p{
+            font-size: $p-size;
+            
+        }
+    } 
+    @media (max-width: 1000px) {
+        h1{   
+
+            padding: 30px 0px 30px 30px ;
+        }
+    }
+
+}
+
+@mixin card-alternada($card-backround, $text-size, $border-style, $border-color, $inline-margin){
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        article{
+            display: grid;
+            background-color: $card-backround;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            font-size: $text-size;    
+            border: 2px solid $border-color;
+            border-radius: 10px;
+            border-style: $border-style;
+            margin-bottom: 40px;
+
+            img{
+            width: 400px; 
+            padding: 10px;
+            border-radius: 20px; 
+            }
+            div{
+                p{
+                    margin: 30px;
+                }        
+            }
+        }
+
+        article:nth-child(odd){
+            margin-left: $inline-margin;
+        }
+        article:nth-child(even){
+            margin-right:$inline-margin;  
+        }
+
+        @media (max-width: 1000px){
+            article{
+                display: block;
+                text-align:center;
+              }  
+            article:nth-child(odd){
+            margin-left: 0%;
+            }
+            article:nth-child(even){
+            margin-right:0%;  
+            }
+        }
+
+}
+
