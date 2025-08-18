@@ -70,6 +70,16 @@
             article{
                 display: block;
                 text-align:center;
+                img{
+                width: 250px; 
+                padding: 10px;
+                border-radius: 20px; 
+                }
+                div{
+                    p{
+                        margin: 30px;
+                    }        
+                }                
               }  
             article:nth-child(odd){
             margin-left: 0%;

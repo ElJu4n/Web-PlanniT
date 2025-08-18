@@ -170,6 +170,14 @@ nav div {
     display: block;
     text-align: center;
   }
+  .lista-testimonios article img {
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .lista-testimonios article div p {
+    margin: 30px;
+  }
   .lista-testimonios article:nth-child(odd) {
     margin-left: 0%;
   }
