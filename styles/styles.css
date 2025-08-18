@@ -290,6 +290,15 @@ nav div {
   width: 100%;
 }
 
+.testimonios-image {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .testimonios-image {
+    width: 20%;
+  }
+}
 .acerca-main-image {
   width: 1000px;
 }
